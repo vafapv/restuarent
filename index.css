@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;1,500&family=Spline+Sans+Mono:ital,wght@0,300;0,400;1,700&display=swap');
+
+body{
+    font-family: "spline Sans" , sans-serif;
+    color: #777;
+    line-height: 1.7;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+a:hover{
+    color: #4b2a04;
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.shadow-on-hover{
+    transition: all 0.3s;
+}
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(65, 34, 14, 0.959);
+}
+
+
+/* button */
+.btn{
+    border-radius: 0;
+    padding: 14px 38px;
+}
+.navbar-brand{
+    background-color: #f5a8a8;
+}
+.btn-brand {
+    color: white;
+    font-weight: 500;
+    border-color: #F58d17;
+    background-color: #F58d17;
+}
+.btn-brand:hover {
+    border-color: #423110c0;
+    background-color:  #d3be98c0;
+    
+
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important ;
+    background-repeat: no-repeat !important;
+    
+}
+/* slider */
+.slide-1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/20201209_Korean-style-Char-grilled-Chicken.jpg);
+
+}
+
+
+.slide-2{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/white-sauce-pasta-featured.webp);
+
+}
+/* about */
+#about .divider{
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: orange;
+}
+/* intro */
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+
+
+}
+/* menu */
+#menu .nav-piils .nav-link {
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+     
+}
+#menu .nav-piils .nav-link.active{
+    background: #F58d17;
+    color: white;
+
+
+
+}
+.menu-item.stars {
+    color: #F58d17;
+
+}
+/* feature */
+#feature {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/iiiiiiii.avif);
+
+
+}
+.feature {
+    border: 2px solid #ffffff56;
+}
+.feature .feature-icon{
+    width: 80px;
+    height: 80px;
+    background-color: #F58d17;
+    color: #fff;
+    font-size: 28px ;
+    display: -moz-inline-grid;
+    align-content: center;
+    text-align: center;
+}
+/* team */
+.team-member img{
+
+max-width: 140px;
+box-shadow: -10px -10px 0 #F58d17;
+border-radius: 100px;
+}
+/* rewies*/
+#reviews{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/rwviewwwwwwwwwwww.jpg);
+
+}
+.review img{
+    width: 75px;
+    height: 75px;
+    
+}
+.review .quote-icon{
+    font-size: 74px;
+    color: #F58d17;
+    line-height: 1;
+}
+.review .stars{
+    color: #F58d17;
+}
+#reviews .carousel-indicators{
+    margin-bottom: -3rem;
+}
+/* reservation  */
+ #reservation .form-control {
+    border-radius: 0;
+
+
+ }
+
+ #reservation .form-control:focus{
+   box-shadow: none;
+   border-color: #F58d17;
+    
+
+ }
+ #reservation input.form-control{
+    height: 47px;
+ }
